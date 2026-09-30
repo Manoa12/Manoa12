@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://github.com/Manoa12.png" width="140" style="border-radius: 50%;" alt="FT_Afa_Afa_Be logo" />
+
 # 👋 Hi, I'm Manoa
 
 ### Student at École 42 Antananarivo 🇲🇬 | Cybersecurity & Python Enthusiast
@@ -12,7 +14,7 @@
 
 - 🎓 Currently a student at **École 42 Antananarivo**, working through the common core (C, systems, networking, Python)
 - 🔐 Focused on **defensive cybersecurity**: network auditing, log analysis, hardening
-- 🐍 Mainly coding in **Python**
+- 🐍 Mainly coding in **Python** and **C**
 - 🐧 Fully customized Linux setup (Kali) at home, in addition to the school workstation
 - 📫 Contact: manoalk760@gmail.com
 
@@ -61,3 +63,4 @@
 *"Networking • Security • Ethical Hacking"* ⚡
 
 </div>
+
