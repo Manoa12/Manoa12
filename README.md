@@ -12,7 +12,7 @@
 
 - 🎓 Currently a student at **École 42 Antananarivo**, working through the common core (C, systems, networking, Python)
 - 🔐 Focused on **defensive cybersecurity**: network auditing, log analysis, hardening
-- 🐍 Mainly coding in **Python** and **C**
+- 🐍 Mainly coding in **Python**
 - 🐧 Fully customized Linux setup (Kali) at home, in addition to the school workstation
 - 📫 Contact: manoalk760@gmail.com
 
