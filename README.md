@@ -1,84 +1,63 @@
-# Email Header Analyzer
+<div align="center">
 
-Petit outil en Python pour analyser le routage et l'authentification d'un email à partir de ses en-têtes bruts.
+# 👋 Hi, I'm Manoa
 
-## Fonctionnalités
+### Student at École 42 Antananarivo 🇲🇬 | Cybersecurity & Python Enthusiast
 
-- Extrait les champs principaux : `From`, `To`, `Subject`, `Date`, `Return-Path`, `Message-ID`
-- Affiche tous les sauts `Received` (chemin de l'email, de l'expéditeur au destinataire)
-- Vérifie les résultats **SPF**, **DKIM** et **DMARC**
-- Gère les en-têtes répartis sur plusieurs lignes (dépliage automatique)
-- Aucune installation de bibliothèque externe
+</div>
 
-## Prérequis
+---
 
-- Python 3.8 ou supérieur (bibliothèque standard uniquement)
+### 🧠 About me
 
-## Utilisation
+- 🎓 Currently a student at **École 42 Antananarivo**, working through the common core (C, systems, networking, Python)
+- 🔐 Focused on **defensive cybersecurity**: network auditing, log analysis, hardening
+- 🐍 Mainly coding in **Python** and **C**
+- 🐧 Fully customized Linux setup (Kali) at home, in addition to the school workstation
+- 📫 Contact: manoalk760@gmail.com
 
-1. Récupérer l'en-tête brut de l'email (dans votre client mail : « Afficher l'original » / « Voir les en-têtes »).
-2. L'enregistrer dans un fichier texte, par exemple `header.txt`.
-3. Lancer :
+---
 
-```bash
-python3 email_analyzer.py header.txt
-```
+### 🛠️ Stack & tools
 
-Un fichier d'exemple est fourni :
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-```bash
-python3 email_analyzer.py sample_header.txt
-```
+---
 
-## Exemple de sortie
+### 🚀 Featured projects
 
-```
-=== EMAIL HEADER ANALYSIS ===
-From        : alerts@example.com
-To          : user@example.net
-Subject     : Security Alert
-Date        : Tue, 08 Sep 2026 10:20:14 +0000
-Return-Path : <bounce@example.com>
-Message-ID  : <abc123@example.com>
+| Project | Description |
+|---|---|
+| 🔎 [network-port-scanner](https://github.com/Manoa12/network-port-scanner) | Simplified nmap-style TCP port scanner in Python, with service detection |
+| 📡 [SysAdmin-Network-Checkup](https://github.com/Manoa12/SysAdmin-Network-Checkup) | Read-only Windows network security audit: firewall, ports, shares, ARP |
+| 🌍 [IP-Location-Finder](https://github.com/Manoa12/IP-Location-Finder) | Python CLI to geolocate an IP address via ip-api.com |
+| 📧 [Email_header_analizer_using_python](https://github.com/Manoa12/Email_header_analizer_using_python) | Email header analysis: routing, SPF/DKIM/DMARC |
+| 🔑 [Weak-Password-Finder](https://github.com/Manoa12/Weak-Password-Finder) | Local password-strength auditor (dictionary + capped brute-force) |
+| 📶 [wifi-extractor](https://github.com/Manoa12/wifi-extractor) | Recovers WiFi passwords already saved on your own machine |
 
-Authentication Results:
-SPF   : PASS
-DKIM  : PASS
-DMARC : PASS
+*(remember to pin these repos via "Customize your pins")*
 
-Received Hops:
-1. from mail.example.com (mail.example.com [198.51.100.5]) by mx.example.net ...
-2. from mx.example.net (mx.example.net [192.0.2.10]) by inbound.mailserver.com ...
+---
 
-[+] Header analysis completed.
-```
+### 📊 GitHub stats
 
-## Comment ça marche
+<div align="center">
 
-1. Lecture du fichier d'en-têtes avec le module `email` de la bibliothèque standard.
-2. Extraction des champs principaux.
-3. Lecture de `Authentication-Results` (avec repli sur `Received-SPF`) pour SPF, DKIM et DMARC.
-4. Affichage des sauts `Received` dans l'ordre chronologique.
+![Manoa12's stats](https://github-readme-stats.vercel.app/api?username=Manoa12&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Manoa12&layout=compact&theme=tokyonight&hide_border=true)
 
-## Interprétation des résultats
+</div>
 
-| Valeur | Signification |
-|--------|---------------|
-| `PASS` | La vérification a réussi |
-| `FAIL` / `SOFTFAIL` | La vérification a échoué (email potentiellement usurpé) |
-| `NEUTRAL` | Le domaine ne se prononce pas |
-| `NONE` | Aucune information trouvée dans les en-têtes |
+---
 
-## Limites
+<div align="center">
 
-- Les résultats SPF/DKIM/DMARC sont **lus** dans les en-têtes ajoutés par le serveur de réception ; l'outil ne refait pas les vérifications DNS.
-- Un en-tête peut être falsifié : les lignes `Received` ajoutées avant votre serveur de réception ne sont pas fiables.
+*"Networking • Security • Ethical Hacking"* ⚡
 
-## Structure
-
-```
-email-header-analyzer/
-├── email_analyzer.py
-├── sample_header.txt
-└── README.md
-```
+</div>
