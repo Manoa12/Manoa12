@@ -6,9 +6,7 @@
 
 <br/>
 
-### `root@manoa:~# whoami`
-**Cybersecurity Enthusiast — 42 Antananarivo Student — Python & C Developer**
-*Networking • Security • Ethical Hacking*
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=600&lines=root%40manoa%3A~%23+whoami;Cybersecurity+Enthusiast;42+Antananarivo+Student;Python+%26+C+Developer;Networking+%E2%80%A2+Security+%E2%80%A2+Ethical+Hacking" alt="Typing SVG" />
 
 ![Profile views](https://komarev.com/ghpvc/?username=Manoa12&label=Profile%20views&color=00ff41&style=flat)
 ![Followers](https://img.shields.io/github/followers/Manoa12?label=Followers&style=flat&color=00ff41)
