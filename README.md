@@ -70,8 +70,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Manoa12&show_icons=true&theme=react&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manoa12&layout=compact&theme=react&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false" width="40%"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Manoa12&show_icons=true&theme=react&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false" width="48%"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Manoa12&layout=compact&theme=react&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false" width="40%"/>
 
 <br/>
 
@@ -79,7 +79,7 @@
 
 </div>
 
-> If a stats card doesn't load, the free shared instance may be paused — see the README's own notes for self-hosting it.
+> Cards powered by [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the actively maintained successor to the now-archived `github-readme-stats`. If a card still doesn't load, that instance may also be rate-limited — consider self-hosting it on your own free Vercel account for full reliability.
 
 ---
 
