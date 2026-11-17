@@ -1,12 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=220&section=header&text=FT_AFA_AFA_BE&fontSize=48&fontColor=00ff41&fontAlignY=35&desc=Cybersecurity%20%26%20Python%20Enthusiast&descAlignY=55&descSize=18&descColor=00ff41&animation=fadeIn" width="100%"/>
+<img src="assets/matrix_banner.gif" width="100%" alt="Matrix rain banner"/>
 
-<img src="https://github.com/Manoa12.png" width="130" style="border-radius: 50%; border: 2px solid #00ff41;" alt="FT_Afa_Afa_Be"/>
+<img src="assets/hacker_logo.png" width="180" alt="FT_AFA_AFA_BE"/>
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=600&lines=root%40manoa%3A~%23+whoami;Cybersecurity+Enthusiast;42+Antananarivo+Student;Python+%26+C+Developer;Networking+%E2%80%A2+Security+%E2%80%A2+Ethical+Hacking" alt="Typing SVG" />
+# FT_AFA_AFA_BE
+### Cybersecurity & Python Enthusiast
 
 ![Profile views](https://komarev.com/ghpvc/?username=Manoa12&label=Profile%20views&color=00ff41&style=flat)
 ![Followers](https://img.shields.io/github/followers/Manoa12?label=Followers&style=flat&color=00ff41)
@@ -16,7 +15,7 @@
 ---
 
 ```bash
-┌──(manoa㉿FT_AFA_AFA_BE)-[~]
+┌──(manoa@FT_AFA_AFA_BE)-[~]
 └─$ cat about_me.txt
 
 [+] Name        : Manoa
@@ -27,7 +26,7 @@
 [+] Status      : Building tools, breaking things (ethically), writing it all up
 [+] Contact     : manoalk760@gmail.com
 
-┌──(manoa㉿FT_AFA_AFA_BE)-[~]
+┌──(manoa@FT_AFA_AFA_BE)-[~]
 └─$ _
 ```
 
@@ -79,7 +78,7 @@
 
 </div>
 
-> Cards powered by [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the actively maintained successor to the now-archived `github-readme-stats`. If a card still doesn't load, that instance may also be rate-limited — consider self-hosting it on your own free Vercel account for full reliability.
+> Cards powered by [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the maintained successor to the archived `github-readme-stats`. If a card doesn't load, that shared instance may be rate-limited — self-host it on your own free Vercel account for full reliability.
 
 ---
 
@@ -94,7 +93,7 @@
 <details>
 <summary>⚙️ How to enable the snake animation (one-time setup)</summary>
 
-1. In this repo, go to **Settings → Secrets and variables → Actions** — no secret needed, `GITHUB_TOKEN` is automatic.
+1. In this repo, go to **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, Save.
 2. Create `.github/workflows/snake.yml` with:
 
 ```yaml
@@ -129,8 +128,6 @@ jobs:
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=120&section=footer"/>
 
 *"Networking • Security • Ethical Hacking"* ⚡
 
